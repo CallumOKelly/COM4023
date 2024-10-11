@@ -33,6 +33,18 @@ public class Week1 {
             System.out.println("The area of this Rectangle is "+ area);
             System.out.println("The perimeter of this Rectangle is "+ perimeter);
 
+
+            //Task 4
+            System.out.println("Enter the first number: ");
+            double num1 = scanner.nextDouble();  // Using double to handle decimal numbers
+    
+            System.out.println("Enter the second number: "); // Prompt the user to enter the second number
+            double num2 = scanner.nextDouble();  
+    
+            double average = (num1 + num2) / 2;// Calculating the average
+    
+            
+            System.out.println("The average of the two numbers is: " + average);// Displaying the result
     }
 }
 
